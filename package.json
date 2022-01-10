@@ -1,9 +1,9 @@
 {
   "private": true,
   "name": "cara",
-  "description": "Playful and Colorful One-Page portfolio featuring Parallax effects and animations",
+  "description": "gekyume.io website source",
   "version": "0.2.11",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "author": "david mccauley <dmccauley@gmail.com>",
   "license": "0BSD",
   "starter-name": "gatsby-starter-portfolio-cara",
   "scripts": {
@@ -19,8 +19,12 @@
     "@lekoarts/gatsby-theme-cara": "^3.0.0",
     "gatsby": "^4.4.0",
     "gatsby-plugin-gatsby-cloud": "^4.0.0",
+    "gatsby-plugin-image": "^2.4.0",
     "gatsby-plugin-manifest": "^4.0.0",
+    "gatsby-plugin-sharp": "^4.4.0",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.22",
+    "gatsby-source-filesystem": "^4.4.0",
+    "gatsby-transformer-sharp": "^4.4.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
