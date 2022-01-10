@@ -47,7 +47,9 @@ const MintPage = () => (
           <Inner>
             <Themed.h1>Mint a Gek NFT</Themed.h1>
             <Themed.p>
-              Click the Mint button to begin minting <Link to="/">homepage</Link>.
+              Click the Mint button to begin minting
+
+              Click to go back to <Link to="/">homepage</Link>.
             </Themed.p>
           </Inner>
         </Content>
