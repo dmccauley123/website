@@ -12,9 +12,9 @@ const Cara = () => (
     <Parallax pages={6}>
       <Hero offset={0} factor={1} />
       <Gallery offset={1} factor={2} />
-      <About offset={2.5} factor={2} />
-      <Projects offset={3.5} factor={2} />
-      <Contact offset={5} factor={1} />
+      <About offset={3} factor={2} />
+      <Projects offset={4} factor={2} />
+      <Contact offset={5.5} factor={1} />
     </Parallax>
   </Layout>
 )
