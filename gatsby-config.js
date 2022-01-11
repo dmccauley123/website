@@ -8,7 +8,7 @@ module.exports = {
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.js
     siteTitle: `Geks World NFT Club`,
-    siteTitleAlt: `Gekyume.io - Gekys World NFT Club`,
+    siteTitleAlt: `Gekyume.io - Geks World NFT Club`,
     siteHeadline: `Geks World NFT Club - An exclusive VIP Members-only club`,
     siteUrl: `https://gekyume.io`,
     siteDescription: `The home of Geks World NFT club, a members only club for NFT holders`,
