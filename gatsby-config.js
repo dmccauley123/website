@@ -68,6 +68,7 @@ module.exports = {
         sitemap: 'https://gekyume.io/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
-    }
+    },
+    `gatsby-plugin-fontawesome-css`,
   ].filter(Boolean),
 }
