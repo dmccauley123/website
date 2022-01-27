@@ -86,9 +86,9 @@ module.exports = {
         // Delays sending pageview hits on route update (in milliseconds)
         pageTransitionDelay: 0,
         // Enables Google Optimize using your container Id
-        //optimizeId: "YOUR_GOOGLE_OPTIMIZE_TRACKING_ID",
+        optimizeId: "0",
         // Enables Google Optimize Experiment ID
-        //experimentId: "0",
+        experimentId: "0",
         // Set Variation ID. 0 for original 1,2,3....
         variationId: "0",
         // Defers execution of google analytics script after page load
