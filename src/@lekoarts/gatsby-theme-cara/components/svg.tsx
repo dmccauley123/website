@@ -10,7 +10,7 @@ import {
   faAtom,
   faDollarSign,
   faGlobeAmericas,
-  faDice,
+  faStar,
 } from '@fortawesome/free-solid-svg-icons'
 
 const icons = {
@@ -52,7 +52,7 @@ const icons = {
   },
   cross: {
     shape: (
-      <FontAwesomeIcon icon={faDice} />
+      <FontAwesomeIcon icon={faStar} />
     ),
     viewBox: `0 0 100 100`,
   },
