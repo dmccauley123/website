@@ -6,7 +6,7 @@ import Inner from "@lekoarts/gatsby-theme-cara/src/elements/inner"
 import Content from "@lekoarts/gatsby-theme-cara/src/elements/content"
 import Svg from "@lekoarts/gatsby-theme-cara/src/components/svg"
 import { UpDown, UpDownWide } from "@lekoarts/gatsby-theme-cara/src/styles/animations"
-import { OutboundLink } from "gatsby-plugin-google-gtag"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 // @ts-ignore
 import Intro from "@lekoarts/gatsby-theme-cara/src/sections/intro"
 import IntroContent from "../sections/introContent"
