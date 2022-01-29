@@ -1,7 +1,64 @@
-## Follow, like, share
+import { OutboundLink } from "gatsby-plugin-google-gtag"
+import { Grid, Box } from "theme-ui"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faInstagram,
+  faTwitter,
+  faDiscord,
+  faYoutube,
+  faTiktok,
+} from '@fortawesome/free-brands-svg-icons'
 
-Discord - Latest info, join the discussion: https://discord.gg/geksworld
+## Socials
 
-instagram - https://www.instagram.com/geksworldnft/
+<br />
 
-twitter - https://twitter.com/geksworld/
+<center>
+<Grid width={[128, null, 192]}>
+  <Box>
+    <OutboundLink href="https://instagram.com/geksworldnft">
+      @GeksWorldNFT
+      <h1><FontAwesomeIcon icon={faInstagram} /></h1>
+    </OutboundLink>
+  </Box>
+  <Box>
+    <OutboundLink href="https://discord.gg/gekclub/">
+      Discord
+      <h1><FontAwesomeIcon icon={faDiscord} /></h1>
+    </OutboundLink>
+  </Box>
+  <Box>
+    <OutboundLink href="https://twitter.com/gekclub/">
+      Twitter
+      <h1><FontAwesomeIcon icon={faTwitter} /></h1>
+    </OutboundLink>
+  </Box>
+</Grid>
+</center>
+
+## Jenesis
+
+<br />
+
+<center>
+<Grid width={[128, null, 192]}>
+  <Box>
+    <OutboundLink href="https://instagram.com/jenesisgiselle">
+      @JenesisGiselle
+      <h1><FontAwesomeIcon icon={faInstagram} /></h1>
+    </OutboundLink>
+  </Box>
+  <Box>
+    <OutboundLink href="https://www.youtube.com/channel/UC2TAxgHoRvNw3GfwflsctvA">
+      YouTube
+      <h1><FontAwesomeIcon icon={faYoutube} /></h1>
+    </OutboundLink>
+  </Box>
+  <Box>
+    <OutboundLink href="https://www.tiktok.com/@thejenesisgiselle">
+      TikTok
+      <h1><FontAwesomeIcon icon={faTiktok} /></h1>
+    </OutboundLink>
+  </Box>
+</Grid>
+</center>
