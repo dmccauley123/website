@@ -22,6 +22,7 @@
     "@fortawesome/react-fontawesome": "^0.1.16",
     "@lekoarts/gatsby-theme-cara": "^3.0.0",
     "@walletconnect/web3-provider": "^1.7.1",
+    "bignumber.js": "^9.0.2",
     "ethers": "^5.5.3",
     "gatsby": "^4.4.0",
     "gatsby-plugin-fontawesome-css": "^1.2.0",
