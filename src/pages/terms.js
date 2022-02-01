@@ -13,9 +13,9 @@ import Footer from "@lekoarts/gatsby-theme-cara/src/components/footer"
 const TermsPage = () => (
   <Layout>
     <Seo title="Geks World NFT Terms and Conditions" />
-    <Parallax pages={2.4}>
+    <Parallax pages={3}>
       <div>
-        <Divider speed={0.2} offset={0} factor={1}>
+        <Divider speed={1} offset={0} factor={1}>
           <UpDown>
             <Svg icon="triangle" hiddenMobile width={48} stroke color="icon_orange" left="10%" top="20%" />
             <Svg icon="hexa" width={48} stroke color="icon_red" left="60%" top="70%" />
@@ -43,7 +43,7 @@ const TermsPage = () => (
           <Svg icon="hexa" width={16} stroke color="icon_darker" left="10%" top="50%" />
           <Svg icon="hexa" width={8} stroke color="icon_darker" left="80%" top="70%" />
         </Divider>
-        <Content speed={0.4} factor={1}>
+        <Content speed={1} offset={.2} factor={.5}>
           <Inner>
             <h1>LEGAL</h1>
             <p>
@@ -90,7 +90,7 @@ const TermsPage = () => (
             </p>
             </Inner>
           </Content>
-          <Content speed={0.4} offset={.9} factor={1}>
+          <Content speed={1} offset={1.5} factor={1}>
             <Inner>
             <h1>OWNERSHIP</h1>
             <ol type="a">
@@ -162,7 +162,7 @@ const TermsPage = () => (
             </ol>
               </Inner>
             </Content>
-            <Content speed={0.4} offset={1.4} factor={1}>
+            <Content speed={1} offset={2} factor={1}>
               <Inner>
             <h1>CLUB & CHARITY FUNDS</h1>
             <p>
