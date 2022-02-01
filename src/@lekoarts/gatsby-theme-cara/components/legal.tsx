@@ -6,6 +6,7 @@ import Svg from "./svg"
 import { UpDown, UpDownWide } from "@lekoarts/gatsby-theme-cara/src/styles/animations"
 // @ts-ignore
 import LegalText from "../sections/legal"
+import Footer from "@lekoarts/gatsby-theme-cara/src/components/footer"
 
 const Legal = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   <div>
@@ -39,6 +40,7 @@ const Legal = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
       <Inner>
         <LegalText />
       </Inner>
+      
     </Content>
   </div>
 )
