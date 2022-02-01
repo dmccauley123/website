@@ -168,8 +168,8 @@ const TermsPage = () => (
             <p>
               GeksWorld Funds will be managed by a new company formed in Florida
               after NFT sellout. Funds will be used to pay for promotion, venue, appearance fees,
-              travel and expenses of artists and staff. Royalties will be allocated to the club
-              to pay for operations and future events.
+              travel and expenses of artists and staff. Royalties will be allocated to the club management
+              company to pay for operations and future events and developing future functionality.
             </p>
             <p>
               A to be announced charity will be created which will disperse funds
