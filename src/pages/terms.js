@@ -79,7 +79,14 @@ const TermsPage = () => (
             </p>
             <p>
             For all our giveaways with a physical prize, we reserve the right to pay
-            the equivalent of the prize in ETH instead of giving the physical prize.
+            the equivalent of the prize in ETH instead of giving the physical prize. Giveaways
+            will be in person in Tampa, FL with flight within US and one night accomodation provided.
+            Minors will require a parent or guardian present to accept giveaway. The timestamp of the
+            block when the last NFT is minted will determine the winner by randomly setting the initial
+            sequence of tokens with two unique traits determining the winner.
+            In the events that Jen, an employee or agent of the company or other related party is randomly
+            selected for either giveaway, a random holder will be chosen via Chainlink
+            Randon Number Generator.
             </p>
             </Inner>
           </Content>
