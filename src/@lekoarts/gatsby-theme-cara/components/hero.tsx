@@ -6,7 +6,6 @@ import Inner from "@lekoarts/gatsby-theme-cara/src/elements/inner"
 import Content from "@lekoarts/gatsby-theme-cara/src/elements/content"
 import Svg from "@lekoarts/gatsby-theme-cara/src/components/svg"
 import { UpDown, UpDownWide } from "@lekoarts/gatsby-theme-cara/src/styles/animations"
-import { OutboundLink } from "gatsby-plugin-google-analytics"
 // @ts-ignore
 import Intro from "@lekoarts/gatsby-theme-cara/src/sections/intro"
 import IntroContent from "../sections/introContent"
@@ -46,13 +45,10 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         <Intro />
         <br />
         <Grid width={[64]}>
-
           <Box>
             <IntroContent />
           </Box>
-
         </Grid>
-
       </Inner>
     </Content>
   </div>

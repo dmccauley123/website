@@ -7,11 +7,13 @@ import Svg from "@lekoarts/gatsby-theme-cara/src/components/svg"
 import Seo from "@lekoarts/gatsby-theme-cara/src/components/seo"
 import Content from "@lekoarts/gatsby-theme-cara/src/elements/content"
 import Inner from "@lekoarts/gatsby-theme-cara/src/elements/inner"
+import Footer from "@lekoarts/gatsby-theme-cara/src/components/footer"
+
 
 const TermsPage = () => (
   <Layout>
     <Seo title="Geks World NFT Terms and Conditions" />
-    <Parallax pages={2}>
+    <Parallax pages={2.4}>
       <div>
         <Divider speed={0.2} offset={0} factor={1}>
           <UpDown>
@@ -41,9 +43,9 @@ const TermsPage = () => (
           <Svg icon="hexa" width={16} stroke color="icon_darker" left="10%" top="50%" />
           <Svg icon="hexa" width={8} stroke color="icon_darker" left="80%" top="70%" />
         </Divider>
-        <Content speed={0.4} offset={.5} factor={1}>
+        <Content speed={0.4} factor={1}>
           <Inner>
-            <h1>Legal</h1>
+            <h1>LEGAL</h1>
             <p>
             Geks World NFT is a collection of digital artworks running on the
             Ethereum network via non fungible tokens(NFTs). gekyume.io is only
@@ -79,6 +81,10 @@ const TermsPage = () => (
             For all our giveaways with a physical prize, we reserve the right to pay
             the equivalent of the prize in ETH instead of giving the physical prize.
             </p>
+            </Inner>
+          </Content>
+          <Content speed={0.4} offset={.9} factor={1}>
+            <Inner>
             <h1>OWNERSHIP</h1>
             <ol type="a">
               <li>
@@ -147,6 +153,10 @@ const TermsPage = () => (
                 </ol>
               </li>
             </ol>
+              </Inner>
+            </Content>
+            <Content speed={0.4} offset={1.4} factor={1}>
+              <Inner>
             <h1>CLUB & CHARITY FUNDS</h1>
             <p>
               GeksWorld Funds will be managed by a new company formed in Florida
@@ -164,6 +174,7 @@ const TermsPage = () => (
               costs and expenses related to the charity.
             </p>
           </Inner>
+          <Footer />
         </Content>
       </div>
     </Parallax>

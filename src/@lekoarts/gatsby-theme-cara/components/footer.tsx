@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import { Box, Flex, Link, useColorMode, jsx } from "theme-ui"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 const Footer = () => {
   const [colorMode, setColorMode] = useColorMode()
@@ -10,9 +11,12 @@ const Footer = () => {
 
   return (
     <Box as="footer" variant="footer">
-      
-      Copyright &copy; {new Date().getFullYear()}. All rights reserved.
+
+      Copyright &copy; {new Date().getFullYear()}.
+      All rights reserved.
       <br />
+      <OutboundLink href="/">Home</OutboundLink> &nbsp; &nbsp;
+      <OutboundLink href="/terms">Terms</OutboundLink>
       <Flex
         sx={{
           justifyContent: `center`,
