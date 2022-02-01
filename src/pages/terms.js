@@ -66,7 +66,7 @@ const TermsPage = () => (
             Although we truly believe in this project, this project should be considered
             strictly an NFT art project that could eventually provide utilities for its
             holders. However, we do not guarantee any profitability for the buyers
-            and it is understood that this is notthe goal or the reason of the project.
+            and it is understood that this is not the goal or the reason of the project.
             This project should not be considered as an investment.
             </p>
             <p>
@@ -149,19 +149,19 @@ const TermsPage = () => (
             </ol>
             <h1>CLUB & CHARITY FUNDS</h1>
             <p>
-            GeksWorld Funds will be managed by a new company formed in Florida
-            after NFT sellout. Funds will be used to pay for promotion, venue, appearance fees,
-            travel and expenses of artists and staff. Royalties will be allocated to the club
-            to pay for operations and future events.
+              GeksWorld Funds will be managed by a new company formed in Florida
+              after NFT sellout. Funds will be used to pay for promotion, venue, appearance fees,
+              travel and expenses of artists and staff. Royalties will be allocated to the club
+              to pay for operations and future events.
             </p>
             <p>
-            A to be announced charity will be created which will disperse funds
-            related to the presale mint. Endowment funds may be invested in crypto,
-            stablecoins, and any other legal investments and dispersed as needed
-            to the charity for events and other charities that cannot accept
-            ethereum as donations. All proceeds will be used for charitable donations,
-            while the club will sponsor operational costs and expenses related to
-            the charity.
+              A to be announced charity will be created which will disperse funds
+              related to the presale mint. Endowment funds may be invested in crypto,
+              stablecoins, and any other legal investments and dispersed as needed
+              to the charity for charity events and donations to other charities
+              that cannot accept ethereum as donations. All proceeds will be used
+              for charitable donations, while the new company will sponsor operational
+              costs and expenses related to the charity.
             </p>
           </Inner>
         </Content>
