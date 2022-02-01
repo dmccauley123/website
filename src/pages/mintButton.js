@@ -33,7 +33,7 @@ export default function MintButton() {
 
         console.log('connected address :' + web3.currentProvider.selectedAddress)
 
-        contract = new web3.eth.Contract(contractABI, '0x47DAf308E06Eb94C7efA6FECD2889DddA6d2Bb5D');
+        contract = new web3.eth.Contract(contractABI, '0x88a988C1C9201Bb72893f8E6B961E59Cfe3F3E1e');
 
         fetch('https://sipf8s5aae.execute-api.us-east-2.amazonaws.com/merkleProof/' + web3.currentProvider.selectedAddress)
             .then(merkleProof => {
