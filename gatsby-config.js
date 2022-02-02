@@ -28,7 +28,6 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    'gatsby-plugin-robots-txt',
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
       // See the theme's README for all available options
@@ -69,13 +68,18 @@ module.exports = {
         openAnalyzer: false,
       },
     },
-    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+        options: {
+          resolveSiteUrl: () => siteUrl,
+        },
+    },
     `gatsby-plugin-react-helmet`,
     {
     resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://gekyume.io',
-        sitemap: 'https://gekyume.io/sitemap.xml',
+        sitemap: 'https://gekyume.io/sitemap/sitemap-index.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },

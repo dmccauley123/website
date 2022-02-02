@@ -9,7 +9,7 @@ import Svg from "@lekoarts/gatsby-theme-cara/src/components/svg"
 import Seo from "@lekoarts/gatsby-theme-cara/src/components/seo"
 import Content from "@lekoarts/gatsby-theme-cara/src/elements/content"
 import Inner from "@lekoarts/gatsby-theme-cara/src/elements/inner"
-import MintButton from "./mintButton";
+import MintButton from "../components/mintButton";
 
 // const LazyConnectComponent = React.lazy(() =>
 //   import("../components/Connect")
