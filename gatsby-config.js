@@ -68,12 +68,7 @@ module.exports = {
         openAnalyzer: false,
       },
     },
-    {
-      resolve: `gatsby-plugin-sitemap`,
-        options: {
-          resolveSiteUrl: () => siteUrl,
-        },
-    },
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
     resolve: 'gatsby-plugin-robots-txt',
